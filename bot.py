@@ -1,9 +1,7 @@
 import telebot
-from telegram.ext import Updater
 
 TOKEN = "1459362157:AAFpXEhJCBjCyhjthwQS52DzmdCXsXNWXQk"
 bot = telebot.TeleBot(TOKEN)
-updater = Updater(token=TOKEN)
 
 # Кнопки
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
