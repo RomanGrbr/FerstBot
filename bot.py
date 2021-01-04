@@ -32,4 +32,3 @@ def sticker_id(message):
     print(message)
 
 bot.polling(none_stop=True)
-updater.idle()
