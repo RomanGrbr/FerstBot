@@ -1,6 +1,6 @@
 import telebot
 
-
+TOKEN = "1459362157:AAFpXEhJCBjCyhjthwQS52DzmdCXsXNWXQk"
 bot = telebot.TeleBot(TOKEN)
 
 # Кнопки
